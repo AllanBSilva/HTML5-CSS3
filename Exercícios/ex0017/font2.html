@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textos com diversas fontes</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Work Sans', sans-serif;
+            /*
+            Medidas Absolutas: cm, mm, in(polegadas), px, pt, pc
+
+            Medidas Relativas: em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            font-weight: 400;
+            font-style: normal;
+            text-decoration: none;
+            /* lighter normal bold bolder*/
+        }
+        h1{
+            /*  
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 1em;
+            font-style: italic;
+            shorthand font - font-style -> font-weight -> font-size -> font-family
+            */
+            font: italic bolder 3em 'Klee One', cursive;
+        }
+        h2 {
+            font: bolder 2em 'Mountains of Christmas', serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título 1</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor consectetur voluptas aliquid eius culpa! Quae dignissimos, sequi, explicabo delectus voluptates error atque accusantium, similique nesciunt saepe amet doloremque aliquid ducimus.</p>
+    <h2>Título 2</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore explicabo ullam similique deleniti nisi perspiciatis atque. Veniam, suscipit iusto. Quod vel accusamus quis provident. Fugit dolores veniam in perferendis culpa!</p>
+</body>
+</html>
