@@ -1,10 +1,13 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+
 * {
     margin: 0%;
     padding: 0%;
 }
-::root {
+:root {
     --fonte1: Verdana, Geneva, Tahoma, sans-serif;
     --fonte2: 'Passion One', cursive;
     --fonte3: 'Sriracha', cursive;
@@ -19,9 +22,10 @@ header {
 h1 {
     font: var(--fonte1);
     font-size: xx-large;
-    font-size: 3em;
+    font-size: 10vw;
     font-variant: small-caps;
     padding-top: 50px;
+    font-family: var(--fonte2);
 }
 header > p {
     font-weight: normal;
@@ -38,19 +42,23 @@ a:hover {
     text-decoration: underline;
 }
 body {
-    margin: 0%;
+    min-height: 100vh;
     background-color: white;
+    font-family: var(--fonte1);
 }
 section {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
     line-height: 2em;
+    font-size: 3vw;
     padding-left: 30px;
+    font-family: var(--fonte3);
 }
 section > p {
     background-color: white;
     height: max-content;
     font: var(--fonte3);
+    padding-bottom: 2em;
 }
 main > section#imagem1 {
     position: relative;
@@ -58,6 +66,7 @@ main > section#imagem1 {
     height: 800px;
     background: black url("imagens/background001.jpg") center center fixed;
     background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.403);
 
 }
 main > section#imagem2 {
@@ -66,17 +75,18 @@ main > section#imagem2 {
     height: 800px;
     background: black url("imagens/background002.jpg") center center fixed;
     background-size: cover;
-
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.403);
 }
 .conteudo {
     position: absolute;
     background-size: 100% 100%;
-    height: 700px;
-    width: 500px;
+    display: inline-block;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.500);
     left: 30px;
     top: 50px;
     color: white;
+    text-shadow: 1px 1px 0px black;
 }
 footer {
     background-color: black;
@@ -89,5 +99,4 @@ footer > p {
     margin: 0%;
     text-align: center;
     color: white;
-    font-size: 1.3em;
 }
