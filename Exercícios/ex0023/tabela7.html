@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Responsivas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        caption {
+            font-size: 0.8em;
+            font-weight: bold;
+            background-color: lightgrey;
+        }
+        table {
+            width: 400px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: 0%;
+            background-color: rgb(152, 250, 152);
+        }
+        thead, tfoot {
+            background-color: rgb(152, 250, 152);
+        }
+        tbody > tr:nth-child(2n) { /*even = par, odd = impar, 2n+1*/
+            background-color: white;
+        }
+        tbody {
+            background-color: rgb(188, 234, 249);
+        }
+        td, th {
+            padding: 10px;
+            border: 1px solid black;
+        }
+        .num {
+            text-align: right;
+        }
+        div#container {
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Tabelas em telas pequnas
+    </h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi rerum, velit nobis laudantium consequuntur veniam. Eum voluptatem expedita aperiam dignissimos adipisci, reiciendis corporis qui? Enim, suscipit eos. Quae, impedit cum.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa cupiditate soluta perspiciatis rem aliquid repudiandae, et amet nobis error eveniet tenetur voluptate quaerat est a mollitia asperiores impedit esse repellendus.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem vero dolorem dolorum ad, voluptatum tempore maxime fugit nulla deserunt est. Ad, eius excepturi? Tempore nostrum architecto unde corrupti esse dolores.
+    </p>
+    <div id="container">
+        <table>
+            <caption>Tabelas Responsivas</caption>
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Jan</th>
+                    <th>Fev</th>
+                    <th>Mar</th>
+                    <th>Abr</th>
+                    <th>Mai</th>
+                    <th>Jun</th>
+                    <th>Jul</th>
+                    <th>Ago</th>
+                    <th>Set</th>
+                    <th>Out</th>
+                    <th>Nov</th>
+                    <th>Dez</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>TV 40"</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Computador</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Geladeira</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Celular</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Air Fryer</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Videogame</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Tablet</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Monitor</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, consectetur dolores in explicabo tempora non soluta distinctio temporibus sit porro nostrum quis quasi nihil eligendi magni culpa beatae doloribus quo.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dignissimos laudantium, dolorum facilis unde quaerat harum itaque. Corporis, aliquam quae aut doloribus odit pariatur ex, corrupti expedita, obcaecati alias assumenda?
+    </p>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem dolores in impedit tempora, ex laboriosam labore ipsam natus et, a illo exercitationem sed autem cum. Recusandae tempora eum necessitatibus quae.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nostrum, delectus voluptatem consequatur mollitia, fugiat, praesentium eum itaque voluptatum vel perferendis similique omnis quasi cum adipisci exercitationem porro labore. Ullam?
+    </p>
+</body>
+</html>
