@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeira Tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 400px;
+            height: 400px;
+            border-collapse: collapse;
+            margin: auto;
+        }
+        tr {
+            background-color: lightgray;
+        }
+        td {
+            border: 1px solid black;
+            padding: 5px;
+            font-weight: bold;
+            text-align: center; /*Alinhamento horizontal*/
+            vertical-align: top; /*Alinhamento vertical*/
+        }
+        .numero {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Minha Primeira Tabela
+    </h1>
+    <!--
+        HIERARQUIA DA TABELA (Simples)
+        TABLE = tabela
+            TABLE ROW = Linha da tabela
+                TABLE HEADER = Cabeçalho da tabela
+                TABLE DATA = Dado de Tabela
+    -->
+    <table>
+        <tr> <!--Primeira Linha-->
+            <td>A1</td> <!--Primeiro dado-->
+            <td>B2</td>
+            <td>C3</td>
+        </tr>
+        <tr> <!--Segunda Linha-->
+            <td>A1</td> 
+            <td>B2</td>
+            <td class="numero">100</td>
+        </tr>
+        <tr> <!--Terceira Linha-->
+            <td>A1</td> 
+            <td class="numero">50</td>
+            <td>C3</td>
+        </tr>
+        <tr> <!--Quarta Linha-->
+            <td>A1</td> 
+            <td>B2</td>
+            <td>C3</td>
+        </tr>
+        <tr> <!--Quinta Linha-->
+            <td>A1</td> 
+            <td>B2</td>
+        </tr>
+
+    </table>
+</body>
+</html>
