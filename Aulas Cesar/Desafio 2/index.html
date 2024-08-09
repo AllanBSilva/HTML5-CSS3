@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>OLD SHOP</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h2 class="title">
+                OLD SHOP
+            </h2>
+            <nav>
+                <a href="">Relíquia</a>
+                <a href="">Velharia</a>
+                <a href="">Nostalgia</a>
+            </nav>
+            <div class="search">
+                <input class="search" placeholder="Pesquisar">
+                <div>
+                    <img id="cart-img" src="b4924c8ca63cbde78d0985cda55ec284.png" alt="Carrinho">
+                    <div id="cart">0</div>
+                </div>
+            </div>
+        </header>
+    </div>
+    <main>
+        <div class="product">
+            <div class="product-images">
+                <img id="main-image" src="708b0d2afb2c13bc0c4f21bea0a4d931.png" alt="Produto Principal">
+                <div class="thumbnail-container" id="thumbnail-container"></div>
+            </div>
+            <div class="product-details">
+                <h2 id="product-name">Fita VHS Basf T-120 Extra Quality</h2>
+                <p id="product-seller">POR <span class="highlight-alt">OLD ELETRÔNICO</span></p>
+                <p id="product-money">R$ 40</p>
+                <p id="product-price"> <span class="highlight-two">DESCONTO 10%</span> <br>no PIX</p>
+                <p id="product-description">Se você está em busca de uma fita VHS de alta qualidade, a FITA VHS BASF T-120 Extra Quality é a escolha ideal para você.</p>
+                <label for="quantity">QTD</label>
+                <br>
+                <input type="number" id="quantity" name="quantity" min="1" value="1">
+                <button id="add-to-cart">Adicionar ao carrinho</button>
+            </div>
+        </div>
+    </main>
+    <script src="script.js" type="module"></script>
+</body>
+</html>

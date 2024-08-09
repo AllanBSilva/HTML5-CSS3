@@ -1,0 +1,14 @@
+header {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 20px 20px;
+}
+
+.product-images img .image-min{
+    width: 20px;
+    height: 20px;
+}
+
+

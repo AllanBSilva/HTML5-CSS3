@@ -1,0 +1,40 @@
+openapi: 3.0.3
+info:
+  title: Swagger da Academia - OpenAPI 3.0
+  description: |-
+    Prática de Documentação de Web API
+  version: 1.0.0
+servers:
+  - url: http://0.0.0.0:3000/
+tags:
+  - name: treinos
+    description: Tudo sobre treinos e exercícios de academia
+paths:
+  /exercicio:
+    post:
+      tags:
+        - treinos
+      summary: Exercício avulso
+      description: Cadastra um exercício naquela academia
+      operationId: exercicio
+      requestBody:
+        description: Cadastra um novo exercício
+        content:
+          application/json:
+            schema:
+              type: object
+              example:
+                nome: "Mobilidade Quadril Z Sentado"
+                séries: 3
+                repetições: "10-15"
+                intervalo: "0:40"
+                observação: "Drop-set"
+        required: true
+      responses:
+        '200':  # <- complete aqui
+          description: Cadastro realizado com sucesso
+          content:
+            application/json:
+              schema:
+
+            # <- complete aqui
